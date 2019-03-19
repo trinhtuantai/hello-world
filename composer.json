@@ -1,0 +1,20 @@
+{
+    "name": "taitt/hello-world",
+    "description": "Hello World package description",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Taitt\\HelloWorld\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Taitt\\HelloWorld\\Providers\\HelloWorldServiceProvider"
+            ]
+        }
+    }
+}
